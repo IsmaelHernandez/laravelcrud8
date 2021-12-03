@@ -1,4 +1,6 @@
 {{-- Mostrar lista de empleados --}}
+<a href="{{url('empleado/create')}}">Registrar Nuevo empleado</a>
+
 <table class="table table-light">
     {{-- cabezera --}}
     <thead class="thead-light">

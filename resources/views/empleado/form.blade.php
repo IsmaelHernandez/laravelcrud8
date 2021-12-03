@@ -12,3 +12,5 @@
 <input type="email" name="email"  value="{{isset($empleado->email)?$empleado->email:''}}" placeholder="email">
 <br>
 <input type="submit" value="Guardar Datos">
+<br>
+<a href="{{url('empleado/')}}">Regresar</a>
